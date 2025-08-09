@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Carregamento dos dados
-df = pd.read_csv("../imersao_dev_python/dados_imersao_final.csv")
+df = pd.read_csv("dados_imersao_final.csv")
 
 # Barra lateral
 st.sidebar.header("☰ Filtros")
